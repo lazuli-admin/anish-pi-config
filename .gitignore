@@ -1,5 +1,6 @@
 # Secrets — never commit
 auth.json
+.env
 
 # Local state / caches
 sessions/

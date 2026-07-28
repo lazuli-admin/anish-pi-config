@@ -3,5 +3,8 @@
   "theme": "dark",
   "defaultProvider": "openrouter",
   "defaultModel": "moonshotai/kimi-k3",
-  "defaultThinkingLevel": "medium"
+  "defaultThinkingLevel": "medium",
+  "packages": [
+    "git:github.com/DietrichGebert/ponytail"
+  ]
 }
