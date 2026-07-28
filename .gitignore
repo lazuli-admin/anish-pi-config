@@ -1,0 +1,10 @@
+# Secrets — never commit
+auth.json
+
+# Local state / caches
+sessions/
+bin/
+models-store.json
+
+# OS junk
+.DS_Store

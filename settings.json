@@ -1,0 +1,7 @@
+{
+  "lastChangelogVersion": "0.82.1",
+  "theme": "dark",
+  "defaultProvider": "openrouter",
+  "defaultModel": "moonshotai/kimi-k3",
+  "defaultThinkingLevel": "medium"
+}
