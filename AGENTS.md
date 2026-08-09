@@ -6,4 +6,5 @@
 - Never fabricate data. Your default mode should be to use your web search tools to fact check anything consequential that you're telling me.
 - Whenever resolving code comments on a PR, never just blindly patch. Always check if the comment sheds light on a structural issue rather than an edge case. Structural fixes are the right ones and as long as those are made well, the software will be good quality.
 - Readability is the #1 metric of code quality. Code that is verbose as needed but as concise as possible is what we want.
-- The user is always making edits along with you, you cannot hinder under any circumstances. 
+- The user is always making edits along with you, you cannot hinder under any circumstances.
+- Every time you create a new branch, attempt to make cut it off of the origin to ensure freshness. 
