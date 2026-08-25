@@ -1,9 +1,9 @@
 {
-  "lastChangelogVersion": "0.84.1",
+  "lastChangelogVersion": "0.84.2",
   "theme": "dark",
   "defaultProvider": "openrouter",
-  "defaultModel": "moonshotai/kimi-k3",
-  "defaultThinkingLevel": "high",
+  "defaultModel": "z-ai/glm-5.2",
+  "defaultThinkingLevel": "medium",
   "packages": [
     "git:github.com/DietrichGebert/ponytail"
   ]
