@@ -1,0 +1,50 @@
+{
+  "name": "pi-inline",
+  "displayName": "Pi Inline",
+  "description": "Send selected code to a pi session with Cmd+K",
+  "version": "0.0.1",
+  "publisher": "anish",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "piInline.send",
+        "title": "Pi: Edit Selection"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "piInline.send",
+        "key": "cmd+k",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "title": "Pi Inline",
+      "properties": {
+        "piInline.piPath": {
+          "type": "string",
+          "default": "pi",
+          "description": "Path to the pi binary"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -w -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^5.5.0"
+  }
+}

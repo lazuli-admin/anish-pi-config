@@ -2,7 +2,7 @@
   "lastChangelogVersion": "0.84.2",
   "theme": "dark",
   "defaultProvider": "openrouter",
-  "defaultModel": "z-ai/glm-5.2",
+  "defaultModel": "z-ai/glm-5.3-flash",
   "defaultThinkingLevel": "medium",
   "packages": [
     "git:github.com/DietrichGebert/ponytail"
