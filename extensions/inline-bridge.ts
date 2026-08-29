@@ -36,12 +36,8 @@ export default function (pi: ExtensionAPI) {
 				try {
 					const { message } = JSON.parse(body);
 					if (typeof message !== "string" || !message) throw new Error("no message");
-					try {
-						await pi.sendUserMessage(message);
-					} catch {
-						// busy streaming - queue as steer
-						await pi.sendUserMessage(message, { deliverAs: "steer" });
-					}
+					// fire-and-forget: sendUserMessage reports failures via extension_error, not rejection
+					pi.sendUserMessage(message, { deliverAs: "steer" });
 					res.writeHead(200).end("ok");
 				} catch (e: any) {
 					res.writeHead(400).end(e.message);
