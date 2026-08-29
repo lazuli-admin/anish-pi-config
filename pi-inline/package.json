@@ -2,7 +2,7 @@
   "name": "pi-inline",
   "displayName": "Pi Inline",
   "description": "Send selected code to a pi session with Cmd+K",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "anish",
   "engines": {
     "vscode": "^1.85.0"
@@ -10,7 +10,6 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [

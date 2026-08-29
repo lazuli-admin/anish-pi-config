@@ -51,7 +51,7 @@ export function activate(context: vscode.ExtensionContext) {
 				"```",
 				code,
 				"```",
-				"Edit the file in place to apply this change.",
+				"Scope: only the selection above - never modify anything else. If the message is a question or comment, just respond; if it asks for a change, apply it to this selection only.",
 			].join("\n");
 
 			try {
