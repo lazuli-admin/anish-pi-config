@@ -7,4 +7,5 @@
 - Whenever resolving code comments on a PR, never just blindly patch, also dont address comments with confirmation from user. It may be ignorable if the user does not acknowledge it. Always check if the comment sheds light on a structural issue rather than an edge case. Structural fixes are the right ones and as long as those are made well, the software will be good quality.
 - Readability is the #1 metric of code quality. Code that is verbose as needed but as concise as possible is what we want.
 - The user is always making edits along with you, you cannot hinder under any circumstances.
-- Every time you create a new branch, attempt to make cut it off of the origin to ensure freshness. 
+- Every time you create a new branch, attempt to make cut it off of the origin to ensure freshness.
+- Never write your own scripts whenever there is a non-script option. If you are explicitly preferring scripts over official UI, CLI or endpoints, you need to ask me before doing so.

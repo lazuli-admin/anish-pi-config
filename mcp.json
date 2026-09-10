@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "autoAuth": true
+  },
+  "mcpServers": {
+    "clavis": {
+      "url": "https://monkfish-app-kq9zw.ondigitalocean.app/mcp",
+      "directTools": true
+    }
+  }
+}
