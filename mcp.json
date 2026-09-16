@@ -3,6 +3,17 @@
     "autoAuth": true
   },
   "mcpServers": {
+    "slack": {
+      "url": "https://mcp.slack.com/mcp",
+      "auth": "bearer",
+      "bearerToken": "!grep '^SLACK_MCP_TOKEN=' /Users/anishmitta/.pi/agent/.env | cut -d= -f2-",
+      "excludeTools": [
+        "slack_send_message", "slack_schedule_message", "slack_add_reaction",
+        "slack_create_conversation", "slack_create_canvas", "slack_update_canvas",
+        "slack_create_list", "slack_update_list", "slack_add_list_record", "slack_update_list_record",
+        "slack_get_file_upload_url", "slack_complete_file_upload"
+      ]
+    },
     "clavis": {
       "url": "https://monkfish-app-kq9zw.ondigitalocean.app/mcp",
       "directTools": true
